@@ -1,9 +1,12 @@
 {
-  "name": "project01_guessing_game_typscript",
+  "name": "project01_guessing_game_typscript_dawar",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "type": "module",
+  "bin": {
+    "dawar-guessing-game": "/index.js"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -11,9 +14,13 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "chalk": "^5.1.2",
+    "chalk-animation": "^2.0.3",
     "inquirer": "^9.1.4"
   },
   "devDependencies": {
-    "@types/inquirer": "^9.0.3"
+    "@types/chalk-animation": "^1.6.1",
+    "@types/inquirer": "^9.0.3",
+    "@types/node": "^18.11.9"
   }
 }
