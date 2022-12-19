@@ -1,5 +1,5 @@
 # TypeScript CLI Guess the Number Game
- Simple Command Line Calculator using TypeScipt, Node.js and Inquirer.
+ Simple Command Line Guess the Number Game using TypeScipt, Node.js and Inquirer.
 
 Please make sure Node and Typscript is already installed.
 
